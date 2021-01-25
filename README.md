@@ -586,7 +586,7 @@ _start:
 ```
 - GOT = (Global Offset Table), this is the actual table of offsets as filled in by the linker for external symbols
 - PLT = (Procedure Linkage Table), used to call external functions whose address isn't known in the time of linking
-- GDT = Every 8-byte entry in the GDT is a descriptor, but these descriptors can be references not only to memory segments but also to Task State Segment
+- GDT = (Global Descriptor Table) Every 8-byte entry in the GDT is a descriptor, but these descriptors can be references not only to memory segments but also to Task State Segment
 ```
 
 ---
