@@ -111,7 +111,8 @@ section .data                               ; section .data holds initialized va
 
 # System Calls (syscalls)
 - What is a system call?
-    + A system call is a program called from the kernel made to assist the program calling it with some kind of function/task
+    + you could say that a system call is a service requested by the kernel (requested by the program)
+    + a fast system call is used to instruct the CPU to add a Procedure/Task Gate Descriptor in either the Global Descriptor Table (GDT) or a Local Descriptor Table (LDT) in order to transition to a lower privilege level (aka user mode to kernel mode).
     + Syscalls are always handled by the EAX(ax) register
     + All syscalls take arguments:
         + EAX, arg0 (sys-call number loaded here)
