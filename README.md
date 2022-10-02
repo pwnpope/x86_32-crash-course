@@ -3,22 +3,26 @@
 ---
 
 ## Course Details:
-- #### ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Registers
-- #### ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Sections
-- #### ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Flags
-- #### ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Functions & Variables
-- #### ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) System Calls (syscalls)
-- #### ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Instructions
-- #### ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Calling Conventions
-- #### ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) GOT, PLT, GDT
-- #### ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) OpCodes
-- #### ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Indexing
+
+```markdown 
+Registers
+Sections
+Flags
+Functions & Variables
+System Calls (syscalls)
+Instructions
+Calling Conventions
+GOT, PLT, GDT
+OpCodes
+Indexing
+```
+
 ---
 
 # Registers
 ### General Purpose Registers:
 ```nasm
-| Register  |  number  |   Description
+| Register     number        Description
 +-------------------------------------------------------------------------------------+
 |  EAX     |    0          |     Accumulator                                          |
 |  ECX     |    1          |     Counter (Loop counters)                              |
