@@ -627,11 +627,3 @@ section .text
         mov EBX, 0 ; exit status
         int 0x80   ; interrupt and invoke sys-call
 ```
-
----
-
-## Credits:
-- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) Twitter: https://twitter.com/ROPchainz
-- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) Github: https://github.com/Ret2LC
-![alt text](https://media.discordapp.net/attachments/803071271210057759/803079226651312128/image0_copy_2.gif)
-- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) Special thanks to: https://twitter.com/am0nsec for helping with some details
