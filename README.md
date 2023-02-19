@@ -1,4 +1,4 @@
-# Run Down On x86 Intel Assembly Course
+# Run Down On x86_32 Intel Assembly Course
 
 ---
 
@@ -421,7 +421,7 @@ _start:
     example:
         mov EAX, -2      ; placing -2 in EAX
         mov EBX, -100    ; placing -100 in EBX
-        imul EBX         ; EBX * EAX = 50 (EAX=50)
+        imul EBX         ; EBX * EAX = 200 (EAX=200)
 
 -------------------------------------------------------------------
 
@@ -437,7 +437,7 @@ _start:
     example:
         mov EAX, 2      ; placing +2 in EAX
         mov EBX, 100    ; placing +100 in EBX
-        mul EBX         ; EBX * EAX = 50 (EAX=50)
+        mul EBX         ; EBX * EAX = 200 (EAX=200)
 
 -------------------------------------------------------------------
 
