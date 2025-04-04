@@ -1,4 +1,4 @@
-# Run Down On x86_32 Intel Assembly Course
+# X86-32 crash course
 
 ---
 
